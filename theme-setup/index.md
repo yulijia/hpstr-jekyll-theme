@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Theme Setup
+title: 安装主题
 description: "Instructions on how to install and customize the modern Jekyll theme HPSTR."
 image:
   feature: abstract-11.jpg
