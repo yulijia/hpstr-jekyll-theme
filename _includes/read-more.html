@@ -6,7 +6,7 @@
 <div class="list-item">
 {% if page.next %}
 <h4><a href="{{ site.url }}{{ page.next.url }}" title="{{ page.next.title }}">{{ page.next.title }}</a></h4>
-<span>发表时间 {{ post.date | date: "%B %d, %Y" }}</span>
+<span>发表时间 {{ page.next.date | date: "%B %d, %Y" }}</span>
 {% else %}
 <h4><span>已到世界尽头</span></h4>
 {% endif %}
@@ -15,7 +15,7 @@
 <div class="list-item">
 {% if page.previous %}
 <h4><a href="{{ site.url }}{{ page.previous.url }}" title="{{ page.previous.title }}">{{ page.previous.title }}</a></h4>
-<span>发表时间 {{ post.date | date: "%B %d, %Y" }}</span>
+<span>发表时间 {{ page.previous.date | date: "%B %d, %Y" }}</span>
 {% else %}
 <h4><span>已到世界尽头</span></h4>
 {% endif %}
